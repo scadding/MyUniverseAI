@@ -1,0 +1,52 @@
+# --- Core Framework & Logic ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0  # NEW: Separate package for splitting
+langchain-community>=0.3.0
+
+# --- Local Model & Vector Store ---
+langchain-ollama>=0.2.0          # NEW: Dedicated Ollama integration
+langchain-chroma>=0.1.4          # NEW: Dedicated Chroma integration
+chromadb>=0.6.0
+
+# --- File & Repo Ingestion ---
+GitPython>=3.1.43
+watchdog>=4.0.0
+pathspec>=0.12.0
+pypdf>=4.0.0
+tiktoken>=0.8.0
+
+# --- Dashboarding ---
+tabulate>=0.9.0
+
+# --- Core RAG Framework ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-ollama>=1.0.1      # Handles local model and embedding inference
+langchain-chroma>=1.1.0      # Specialized integration for ChromaDB
+
+# --- Vector Database ---
+chromadb>=0.6.0              # The primary data store
+
+# --- File Ingestion & Real-Time Sync ---
+watchdog>=4.0.0              # Monitors folder for D&D notes and code changes
+pathspec>=0.12.0             # Parses .gitignore files for smart exclusion
+pypdf>=4.0.0                 # High-performance PDF loading for D&D rules
+
+# --- UI & Dashboarding ---
+streamlit>=1.40.0            # Optional: For the browser-based chat interface
+tabulate>=0.9.0              # For the console-based Data Store Dashboard
+
+# --- Text & Code Processing ---
+tiktoken>=0.7.0              # Accurate token counting for context windows
+
+# --- GitHub Processing ---
+GitPython>=3.1.0
+pathspec>=0.12.0
+langchain-ollama>=1.0.1
+langchain-chroma>=1.1.0
+watchdog>=4.0.0
+pypdf>=4.0.0
+GitPython>=3.1.43
+
+torch>=2.9.1
